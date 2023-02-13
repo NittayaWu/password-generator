@@ -15,6 +15,7 @@ Started code for this application was provided by The Coding Bootcamp account in
 https://nittayawu.github.io/password-generator/
 
 ## Screenshot of Application:
+![Screenshot (18)](https://user-images.githubusercontent.com/121972113/218501894-b9ef884c-a622-4581-8046-44ce6d28e755.png)
 
 
 ## Screen Recording of Application: 
