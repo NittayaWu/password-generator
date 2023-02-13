@@ -10,3 +10,7 @@ This application is a password generator made with HTML, CSS and JavaScript to a
  ## Credit:
 
 Started code for this application was provided by The Coding Bootcamp account in GitHub under the repository name 'friendly-parakeet'. 
+
+## Deployed site:
+https://nittayawu.github.io/password-generator/
+
