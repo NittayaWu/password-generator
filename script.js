@@ -1,11 +1,11 @@
 // Assignment code here
 
-var userSelect = [];
-
+var char = [];
 var upperCaseArray = ['A' , 'B', 'C','D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P','Q' ,'R', 'S', 'T', 'U','V', 'W', 'X', 'Y', 'Z' ]; 
 var lowerCaseArray =['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 var numArray = [0,1,2,3,4,5,6,7,8,9];
 var symbolArray =['!','@','#','$','%','^','&','*','(',')','-','+','/','=','?','.'];
+var userSelect = [];
 
 function generatePassword(){
 //generate password based on  user input in prompt
@@ -41,25 +41,21 @@ function generatePassword(){
 
   if (symbols){
     userSelect = userSelect.concat(symbolArray);
+  
   }
 
 //validate user's input
 }
 
-
+var password = '';
 for (var i = 0; i <charLength; i++){
   var randomValue = Math.floor(Math.random() * userSelect.length);
-  var character =  userSelect[randomValue];
-  console.log(character);
-  charLength.push(character);
+   password = password + userSelect[randomValue];
 
 }
-return charLength.join('');
+return password;
+
 }
-
-
-
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 var passwordText = document.querySelector("#password");
